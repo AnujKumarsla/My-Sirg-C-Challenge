@@ -1,3 +1,4 @@
+// Program to print fibbonaci series up to nth term
 #include<stdio.h>
 #include<stdlib.h>
 int fibbonaci(int num){
@@ -11,7 +12,7 @@ int fibbonaci(int num){
 }
 int main(){
     int number;
-    printf("Enter the number : ");
+    printf("Enter the number of term : ");
     scanf("%d",&number);
     printf("The Fibbonaci Series : ");
     fibbonaci(number);
